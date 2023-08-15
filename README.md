@@ -16,9 +16,3 @@ plugins=(
 
 Keep in mind that plugins need to be added before oh-my-zsh.sh is sourced.
 
-
-# Development log
-
-- I wanted to reference `sccd.awk` with a relative link from the location of the (main) `zsh-sccd.plugin.zsh` file
-    - this turned out to be quite difficult, and probably would be very error-prone, dealing with all the ways to source files is zsh (absolute vs relative path; same vs different directory; `source` vs `.`; different zsh options...),
-    - so in the end I will just be using a path based on `$ZSH_CUSTOM`
